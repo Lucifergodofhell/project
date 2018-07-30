@@ -26,5 +26,9 @@ namespace ConsoleAppclc
 			Console.WriteLine("Div by zero error");
 		}
 	 }
+	 public int mul(int a,int b){{
+	 	return a*b;
+	 }
+		 
 	}
 }
