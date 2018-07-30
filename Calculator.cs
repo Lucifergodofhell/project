@@ -11,10 +11,5 @@ namespace ConsoleAppclc
 		    int c=a-b;
 		    return c;
 	    }
-	    void main(){
-	    	int a=12;
-		int b=14;
-		Console.WriteLine(sub());
-	    }
     }
 }
