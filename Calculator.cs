@@ -19,7 +19,12 @@ namespace ConsoleAppclc
 	 
 	 public int div(int a,int b)
 	 {
+	     try{
 	 	return a/b;
+		}
+		catch{
+			Console.WriteLine("Div by zero error");
+		}
 	 }
 	}
 }
