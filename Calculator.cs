@@ -6,5 +6,13 @@ namespace ConsoleAppclc
 {
     class Calculator
     {
+	    int sub(int a ,int b)
+	    {
+		    int c=a-b;
+		    return c;
+	    }
+	    void main(){
+	    	
+	    }
     }
 }
