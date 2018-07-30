@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -11,5 +11,10 @@ namespace ConsoleAppclc
 		    int c=a-b;
 		    return c;
 	    }
-    }
+		
+	 public int Add(int a,int b)
+	 {
+	 	Console.WriteLine(a+b);
+	 }
+	}
 }
